@@ -391,16 +391,23 @@
     .service-link {
     display: inline-block;
     float: left;
-    margin: 50px 50px;
+    margin: 20px 10px;
+    width: 231px;
     }
-    .shop-product,.about {
+    .about {
     display: inline-block;
     float: none;
+    margin: 0px 0px;
+    }
+    .shop-product{
     margin: 0px 20px;
     }
     .shop-collection{
             float: left;
-    }    
+    } 
+    .about {
+    font-size: 13px;
+    }
     } 
    @media only screen and (max-width: 745px){
        .grid-content >p{
@@ -409,12 +416,14 @@
     
     }
     @media only screen and (max-width: 705px){
-        @media only screen and (max-width: 950px)
    .shop-product, .shop-collection, .about {
     display: inline-block;
     float: left;
     margin: 0px 20px;
     }
+    .about{
+        text-align: left;
+        }
     }
     @media only screen and (max-width: 660px){
      .footer-foot >.footer-foot-sitemap >h5 {
@@ -431,15 +440,54 @@
     }
     }
     @media only screen and (max-width: 660px){
+   .main-guide-section {
+    display: inline-block;
+    width: calc(100% - 100px);
+    margin-left: 100px;
+    }
+    input[type=text] {
+    width: 225px;
+    }
     .main-guide-section {
     display: inline-block;
-    width: calc(100% - 120px);
-    margin-left: 120px;
-    }    
+    width: calc(100% - 57px);
+    margin-left: 57px;
     }
+    }    
+
    @media only screen and (max-width: 500px){
        .mainbanner-wrapper{
            width: 100%;
        }
+      .footnote-section {
+      display: inline-block;
+      margin: 50px auto;
+      width: calc(100% - 40px);
+     }
     }
+   @media only screen and (max-width: 411px){
+    .landingpage-header {
+    margin-top: 256px;
+    }
+   }
+@media only screen and (max-width: 320px){
+    .toggle >i{
+     font-size: 29px;   
+    }
+    .header-menu-icon{
+        width: 153px;
+    }
+    .header-menu-icon >i{
+        font-size: 19px;
+    }
+    .landingpage-header{
+        margin-top: 207px;
+    }
+    .header >.header-section >.logo {
+    margin-left: 10px;
+    }
+    .header >.header-section >.logo >img {
+    height: 53px;
+}
     
+}
